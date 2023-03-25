@@ -37,5 +37,4 @@ import { RouterLink, RouterView } from 'vue-router'
         </div>
     </footer>    
   
-
 </template>
