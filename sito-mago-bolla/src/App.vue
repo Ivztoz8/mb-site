@@ -6,7 +6,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <!--Css => "style" è da rimuovere; è usato solo ai fini di template testing-->
-  <header class="teal accent-3">
+  <div>
+
+    <header class="hero_header">
         <div class="test-border0 test-header">
             <div class="test-border1 test-flex0" style="margin-left: 0.5%; padding: 0.3%;"><router-link to="/" style="color: black;">Logo</router-link></div> 
             <div class="test-border1 test-flex0" style="margin-right: 1%; padding: 1px;"> 
@@ -38,5 +40,6 @@ import { RouterLink, RouterView } from 'vue-router'
             </div>
         </div>
     </footer>    
-  
+
+  </div>
 </template>
