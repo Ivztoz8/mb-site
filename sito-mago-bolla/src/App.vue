@@ -8,16 +8,16 @@ import { RouterLink, RouterView } from 'vue-router'
   <div>
     <!--HEADER-->
     <header class="hero_header">
-        <div class="flex_bet padd_s">
-            <div class="marg_s">
-                <router-link to="/logo"><img src="/public/img/logo rosso ok.jpg" alt="logo" class="logo responsive-img circle"> MAGOBOLLA</router-link>
+        <div class="flex_bet">
+            <div class="padd_left">
+                <router-link to="/logo"><span class="logo">MAGOBOLLA</span></router-link>
             </div> 
-            <div class="marg_s"> 
-                <ul class="ms_flex">
-                    <li class="padd_left"><router-link to="/spettacoli">Spettacoli</router-link></li>
-                    <li class="padd_left"><router-link to="/blog">Blog</router-link></li>
-                    <li class="padd_left"><router-link to="/curriculum">Curriculum</router-link></li>
-                    <li class="padd_left"><a href="#">Contatti</a></li>
+            <div class=""> 
+                <ul class="ms_flex ms_menu">
+                    <li class="padd_lr"><router-link to="/spettacoli">SPETTACOLI</router-link></li>
+                    <li class="padd_lr"><router-link to="/blog">BLOG</router-link></li>
+                    <li class="padd_lr"><router-link to="/curriculum">CV</router-link></li>
+                    <li class="padd_lr"><a href="#">CONTATTI</a></li>
                 </ul>
             </div>
         </div>

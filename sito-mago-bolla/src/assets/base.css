@@ -78,13 +78,14 @@ h6 {
 .padd_l {
   padding: 3rem;
 }
-.padd_left {
+.padd_lr {
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 a {
   text-decoration: none;
-  color: white !important;
   font-size: 30px;
+  color: violet !important;
 }
 p {
   line-height: 1.5;

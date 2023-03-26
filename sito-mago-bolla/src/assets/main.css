@@ -4,11 +4,15 @@
     background-image: url(/public/img/bollascen2.png);
     background-position: center;
     background-size:cover;
-    color: white;
     height: 700px;
 }
 .logo {
-    width: 100px;
-    vertical-align: middle;
+    font-size: 5rem;
+    color: violet;
+    font-weight: 800;
+}
+.ms_menu {
+    font-size: 4rem;
+    font-weight: 600;
 }
 
