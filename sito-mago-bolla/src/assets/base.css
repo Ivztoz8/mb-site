@@ -78,9 +78,12 @@ h6 {
 .padd_l {
   padding: 3rem;
 }
+.padd_left {
+  padding-left: 1.5rem;
+}
 .padd_lr {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 a {
   text-decoration: none;
