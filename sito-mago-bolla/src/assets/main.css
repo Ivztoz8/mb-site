@@ -1,18 +1,29 @@
 @import './base.css';
 
+/*Header*/
 .hero_header {
     background-image: url(/public/img/bollascen2.png);
     background-position: center;
-    background-size:cover;
-    height: 700px;
+    background-size: cover;
+    height: 900px;
 }
 .logo {
-    font-size: 5rem;
-    color: violet;
-    font-weight: 800;
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
 }
 .ms_menu {
-    font-size: 4rem;
-    font-weight: 600;
+    font-weight: 450;
+    font-size: 1.75rem;
+    margin-top: 1.75rem;
+}
+/*Main*/
+.bord_img {
+    border-radius: 20px;
+    margin: 4rem auto;
+}
+/*Footer*/
+footer {
+    color: white;
 }
 

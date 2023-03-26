@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import SpettacoliView from '../views/SpettacoliView.vue'
+import FotoeVideoView from '../views/FotoeVideoView.vue'
 import CurriculumView from '../views/CurriculumView.vue'
 import BlogView from '../views/BlogView.vue'
 
@@ -14,9 +14,9 @@ const router = createRouter({
     },
     // Other pages
     {
-      path: '/spettacoli',
-      name: 'spettacoli',
-      component: SpettacoliView
+      path: '/fotoevideo',
+      name: 'fotoevideo',
+      component: FotoeVideoView
     },
     {
       path: '/curriculum',
