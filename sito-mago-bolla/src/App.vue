@@ -5,19 +5,20 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 <template>
-  <!--Css => "style" è da rimuovere; è usato solo ai fini di template testing-->
   <div>
-
+    <!--HEADER-->
     <header class="hero_header">
-        <div class="test-border0 test-header">
-            <div class="test-border1 test-flex0" style="margin-left: 0.5%; padding: 0.3%;"><router-link to="/" style="color: black;">Logo</router-link></div> 
-            <div class="test-border1 test-flex0" style="margin-right: 1%; padding: 1px;"> 
-                <div class="test-flex0 test-border2" style="padding: 2%; padding: 1px; padding-right: 65px;">
-                    <div class="test-border3" style="padding: 2%; margin: 1%;"><router-link to="/spettacoli" style="color: black;">Spettacoli</router-link></div>
-                    <div class="test-border3" style="padding: 2%; margin: 1%;"><router-link to="/curriculum" style="color: black;">Curriculum</router-link></div>
-                    <div class="test-border3" style="padding: 2%; margin: 1%;"><router-link to="/blog" style="color: black;">Blog</router-link></div>
-                    <div class="test-border3" style="padding: 2%; margin: 1%;"><a href="#" style="color: orangered;">Dropdown</a></div>
-                </div>
+        <div class="flex_bet padd_s">
+            <div class="marg_s">
+                <router-link to="/logo"><img src="/public/img/logo rosso ok.jpg" alt="logo" class="logo responsive-img circle"> MAGOBOLLA</router-link>
+            </div> 
+            <div class="marg_s"> 
+                <ul class="ms_flex">
+                    <li class="padd_left"><router-link to="/spettacoli">Spettacoli</router-link></li>
+                    <li class="padd_left"><router-link to="/blog">Blog</router-link></li>
+                    <li class="padd_left"><router-link to="/curriculum">Curriculum</router-link></li>
+                    <li class="padd_left"><a href="#">Contatti</a></li>
+                </ul>
             </div>
         </div>
   </header>

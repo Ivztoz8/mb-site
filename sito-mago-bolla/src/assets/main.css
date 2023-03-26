@@ -1,6 +1,14 @@
 @import './base.css';
 
-.hero_header{
-    background-color: blueviolet;
+.hero_header {
+    background-image: url(/public/img/bollascen2.png);
+    background-position: center;
+    background-size:cover;
+    color: white;
+    height: 700px;
+}
+.logo {
+    width: 100px;
+    vertical-align: middle;
 }
 
