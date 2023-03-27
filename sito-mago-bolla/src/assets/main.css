@@ -5,28 +5,28 @@
     background-image: url(/public/img/bollascen2.png);
     background-position: center;
     background-size: cover;
-    height: 900px;
+    height: 500px;
 }
 
 .curriculum {
     background-image: url(/public/img/7222931_orig.jpg);
     background-position: center;
     background-size: cover;
-    height: 900px;
+    height: 500px;
 }
 
 .fotoevideo {
     background-image: url(/public/img/bolla_zombie.jpg);
     background-position: center;
     background-size: cover;
-    height: 900px;
+    height: 500px;
 }
 
 .blog {
     background-image: url(/public/img/spettacolobambini.jpg);
     background-position: center;
     background-size: cover;
-    height: 900px;
+    height: 500px;
 }
 
 .logo {

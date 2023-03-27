@@ -4,11 +4,11 @@
     <div class="ms_flex row">
       <!--Image-->
       <div class="col s-6">
-        <img class="responsive-img bord_img" src="/public/img/bolle2.jpg" alt="bolle2">
+        <img class="responsive-img bord_img" src="/public/img/bolle2cut.png" alt="bolle2">
       </div>
       <!--text-->
       <div class="col s-6 center-align">
-        <h2>Spettacolo delle bolle giganti per grandi e piccini. </h2>
+        <h2>Spettacolo delle bolle giganti per grandi e piccini.</h2>
       </div>
     </div>
 
@@ -19,18 +19,18 @@
       </div>
       <!--Image-->
       <div class="col s-6">
-        <img class="responsive-img bord_img" src="/public/img/bolle2.jpg" alt="bolle2">
+        <img class="responsive-img bord_img" src="/public/img/bolle2cut.png" alt="bolle2">
       </div>
     </div>
 
     <div class="ms_flex row">
       <!--Image-->
       <div class="col s-6">
-        <img class="responsive-img bord_img" src="/public/img/bolle2.jpg" alt="bolle2">
+        <img class="responsive-img bord_img" src="/public/img/bolle2cut.png" alt="bolle2">
       </div>
       <!--text-->
       <div class="col s-6 center-align">
-        <h2>Spettacolo itinerante con il Baby-T! </h2>
+        <h2>Spettacolo itinerante con il Baby-T!</h2>
       </div>
     </div>
     
