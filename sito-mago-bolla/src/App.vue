@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div>
     <!--HEADER-->
-    <header class="hero_header mb_l">
+    <header :class="$route.name" class="mb_l">
         <div class="padd_m flex_bet">
             <div class="">
                 <router-link to="/"><span class="logo">MAGOBOLLA</span></router-link>

@@ -1,12 +1,34 @@
 @import './base.css';
 
 /*Header*/
-.hero_header {
+.home {
     background-image: url(/public/img/bollascen2.png);
     background-position: center;
     background-size: cover;
     height: 900px;
 }
+
+.curriculum {
+    background-image: url(/public/img/7222931_orig.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.fotoevideo {
+    background-image: url(/public/img/bolla_zombie.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.blog {
+    background-image: url(/public/img/spettacolobambini.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
 .logo {
     font-size: 4rem;
     font-weight: 500;
