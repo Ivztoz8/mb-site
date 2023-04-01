@@ -9,10 +9,14 @@ import '../node_modules/materialize-css/dist/css/materialize.min.css'
 import '../node_modules/material-design-icons/iconfont/material-icons.css'
 
 const app = createApp(App)
+declare let M: any
+M.updateTextFields()
 
 app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
+
 
 
