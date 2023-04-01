@@ -17,6 +17,8 @@ app.use(router)
 
 app.mount('#app')
 
+M.AutoInit();
+
 
 
 
