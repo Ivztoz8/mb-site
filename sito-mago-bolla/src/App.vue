@@ -10,8 +10,14 @@ import { RouterLink, RouterView } from 'vue-router'
     <header :class="$route.name" class="mb_l">
         <div class="padd_m flex_bet">
             <div class="">
-                <router-link to="/"><span class="logo">MAGOBOLLA</span></router-link>
+                <!--Logo-->
+                <router-link to="/">
+                    <span>
+                        <h1 class="title_white">MAGOBOLLA</h1>
+                    </span>
+                </router-link>
             </div> 
+            <!--Menu-->
             <div class=""> 
                 <ul class="ms_flex ms_menu">
                     <li class="padd_left"><router-link to="/fotoevideo">FOTO E VIDEO</router-link></li>
@@ -31,7 +37,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="row flex_bet">
             <!--Logo footer-->
             <div class="col s-6 center">
-                <span>Logo</span>
+                <img class="logo" src="/public/img/logoMagobolla.png" alt="logo.img">
             </div>
             <!--Links footer-->
             <div class="col s-6"> 
